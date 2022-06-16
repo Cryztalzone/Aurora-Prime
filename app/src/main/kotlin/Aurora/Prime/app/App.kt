@@ -20,7 +20,6 @@ fun main() {
 
     val guild = client.getGuildById(237500464445390849)
 
-    //client.upsertCommand("echo", "Repeats whatever you say")
     guild!!.updateCommands()
         .addCommands(Commands.slash("echo", "Repeats a message")
             .addOption(OptionType.STRING, "message", "The message to repeat", true))

@@ -7,6 +7,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2")
     implementation("org.apache.commons:commons-text")
     implementation(project(":utilities"))
     implementation("net.dv8tion:JDA:5.0.0-alpha.12")
