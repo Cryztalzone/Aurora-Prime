@@ -31,4 +31,4 @@ jobs:
           file: ./Dockerfile
           # don't push on PR 
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/AuroraPrime:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/aurora-prime:latest
