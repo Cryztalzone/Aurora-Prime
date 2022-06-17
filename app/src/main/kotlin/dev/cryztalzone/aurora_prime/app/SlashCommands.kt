@@ -1,11 +1,9 @@
-package Aurora.Prime.app
+package dev.cryztalzone.aurora_prime.app
 
-import net.dv8tion.jda.api.entities.Message
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter
 import java.time.OffsetDateTime
 import java.time.temporal.ChronoUnit
-import java.util.EventListener
 import kotlin.math.floor
 import kotlin.concurrent.thread
 

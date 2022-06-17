@@ -1,4 +1,4 @@
-package Aurora.Prime.app
+package dev.cryztalzone.aurora_prime.app
 
 import net.dv8tion.jda.api.JDABuilder
 import net.dv8tion.jda.api.entities.Activity
@@ -19,6 +19,8 @@ fun main() {
     client.awaitReady()
 
     val guild = client.getGuildById(237500464445390849)
+
+    // Test
 
     guild!!.updateCommands()
         .addCommands(Commands.slash("echo", "Repeats a message")
